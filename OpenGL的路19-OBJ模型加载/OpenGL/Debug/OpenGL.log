@@ -1,0 +1,56 @@
+﻿生成启动时间为 2017/8/27 21:30:14。
+     1>项目“E:\projects\OpenGL-Project\OpenGL的路19-OBJ模型加载\OpenGL\OpenGL.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\OpenGL.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\software\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ObjParser.cpp
+         ObjParser.cpp
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(94): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(103): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(108): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(113): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(118): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(123): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(129): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(162): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(167): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(171): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(177): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(192): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(201): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\vs2010\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>e:\projects\opengl-project\opengl的路19-obj模型加载\opengl\objparser.cpp(227): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\software\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projects\OpenGL-Project\OpenGL的路19-OBJ模型加载\Debug\OpenGL.exe" /NOLOGO opengl32.lib glfw3.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenGL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\projects\OpenGL-Project\OpenGL的路19-OBJ模型加载\Debug\OpenGL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projects\OpenGL-Project\OpenGL的路19-OBJ模型加载\Debug\OpenGL.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\mat.obj
+         Debug\ObjParser.obj
+         Debug\Shader.obj
+         Debug\Texture.obj
+         Debug\vec.obj
+         glew32.lib
+         glfw3.lib
+         LINK : 没有找到 E:\projects\OpenGL-Project\OpenGL的路19-OBJ模型加载\Debug\OpenGL.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         OpenGL.vcxproj -> E:\projects\OpenGL-Project\OpenGL的路19-OBJ模型加载\Debug\OpenGL.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\projects\OpenGL-Project\OpenGL的路19-OBJ模型加载\Debug\OpenGL.exe;#1" /manifest Debug\OpenGL.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\OpenGL.unsuccessfulbuild”。
+         正在对“Debug\OpenGL.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\projects\OpenGL-Project\OpenGL的路19-OBJ模型加载\OpenGL\OpenGL.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.78

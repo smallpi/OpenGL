@@ -1,0 +1,25 @@
+﻿生成启动时间为 2017/8/20 16:21:23。
+     1>项目“C:\Users\smallpi\Documents\Visual Studio 2010\OpenGL-Project\OpenGL的路03-shader间传递数据绘制彩色矩形\OpenGL\OpenGL.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\OpenGL.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\software\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+       Link:
+         D:\software\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\smallpi\Documents\Visual Studio 2010\OpenGL-Project\OpenGL的路03-shader间传递数据绘制彩色矩形\Debug\OpenGL.exe" /NOLOGO opengl32.lib glfw3.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenGL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\smallpi\Documents\Visual Studio 2010\OpenGL-Project\OpenGL的路03-shader间传递数据绘制彩色矩形\Debug\OpenGL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\smallpi\Documents\Visual Studio 2010\OpenGL-Project\OpenGL的路03-shader间传递数据绘制彩色矩形\Debug\OpenGL.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Shader.obj
+         glew32.lib
+         glfw3.lib
+         LINK : 没有找到 C:\Users\smallpi\Documents\Visual Studio 2010\OpenGL-Project\OpenGL的路03-shader间传递数据绘制彩色矩形\Debug\OpenGL.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         OpenGL.vcxproj -> C:\Users\smallpi\Documents\Visual Studio 2010\OpenGL-Project\OpenGL的路03-shader间传递数据绘制彩色矩形\Debug\OpenGL.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\smallpi\Documents\Visual Studio 2010\OpenGL-Project\OpenGL的路03-shader间传递数据绘制彩色矩形\Debug\OpenGL.exe;#1" /manifest Debug\OpenGL.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\OpenGL.unsuccessfulbuild”。
+         正在对“Debug\OpenGL.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\smallpi\Documents\Visual Studio 2010\OpenGL-Project\OpenGL的路03-shader间传递数据绘制彩色矩形\OpenGL\OpenGL.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.98
