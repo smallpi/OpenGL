@@ -87,18 +87,18 @@ void main(void){
 
     // vec3 finalColor = (ambient + diffuse + specular);
 
-    vec3 finalColor = calcDirLight(dirLight, vNormal, vFragPos, cameraPos);
-    finalColor += calcPointLight(pointLight, vNormal, vFragPos, cameraPos);
-    oColor = vec4(finalColor, 1.0f);
+    // vec3 finalColor = calcDirLight(dirLight, vNormal, vFragPos, cameraPos);
+    // finalColor += calcPointLight(pointLight, vNormal, vFragPos, cameraPos);
+    // oColor = vec4(finalColor, 1.0f);
 
-    // float near = 0.1f;
-    // float far = 100.0f;
+    float near = 0.1f;
+    float far = 100.0f;
     // 根据下面两步计算可以把gl_FragCoord.z这个深度值计算到near~far之间
     // 线性分布，即viewspace中的z值
-    // float trueDepth = gl_FragCoord.z * 2.0f - 1.0f;
-    // trueDepth = (2.0f * near * far) / (far + near - trueDepth * (far - near));
-    // trueDepth = trueDepth / far;
-    // oColor = vec4(vec3(trueDepth), 1.0f);
+    float trueDepth = gl_FragCoord.z * 2.0f - 1.0f;
+    trueDepth = (2.0f * near * far) / (far + near - trueDepth * (far - near));
+    trueDepth = trueDepth / far;
+    oColor = vec4(vec3(trueDepth), 1.0f);
 }
 
 // 计算平行光产生的颜色

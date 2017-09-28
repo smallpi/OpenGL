@@ -2,7 +2,9 @@
  *	author: smallpi
  *	date: 2017-08-24		
  *	description: 
- *		多光照
+ *		将非线性的深度值换算回线性的深度值
+ *		并绘制深度场
+ *		可以应用于 有雾的场景
  *
  **/
 
@@ -186,8 +188,8 @@ void onInit(void){
 // 参数:
 //     window : GLFW的窗口指针	
 void onDraw(GLFWwindow* window){
-    glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
-
+    glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT|GL_STENCIL_BUFFER_BIT);
+	
     shader.use();
 
 
@@ -431,7 +433,7 @@ int main(int argc, char** argv){
     //glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0); //设置最低的OpenGL版本
     // 创建windows mode的窗口
     // 并创建OpenGL环境
-    window = glfwCreateWindow(640, 480, "OpenGL's road - Multi light", NULL, NULL);
+    window = glfwCreateWindow(640, 480, "OpenGL's road - Depth Field", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
